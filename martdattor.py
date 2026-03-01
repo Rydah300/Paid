@@ -24,7 +24,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     keyboard = [
         [InlineKeyboardButton("✉️ Submit Support Request", callback_data="submit_request")],
         [InlineKeyboardButton("📚 Documentation", url="https://dattomart.com/docs")],
-        [InlineKeyboardButton("🌐 Official Website", url="https://dattomart.com")]
+        [InlineKeyboardButton("🌐 Official Website", url="https://dattomart.zya.me")]
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
     
